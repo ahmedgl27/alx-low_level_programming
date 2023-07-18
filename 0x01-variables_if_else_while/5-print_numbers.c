@@ -8,16 +8,16 @@
  */
 int main(void)
 {
-    int digit;
+	int digit;
 
-    /* Loop to print all single-digit numbers */
-    for (digit = 0; digit < 10; digit++)
-    {
-        printf("%d", digit);
-    }
+	/* Loop to print all single-digit numbers */
+	for (digit = 0; digit < 10; digit++)
+	{
+		printf("%d", digit);
+	}
 
-    /* Print a new line after printing all the single-digit numbers */
-    printf("\n");
+	/* Print a new line after printing all the single-digit numbers */
+	printf("\n");
 
-    return 0;
+	return (0);
 }
