@@ -7,16 +7,16 @@
  */
 int main(void)
 {
-    char letter;
+	char letter;
 
-    /* Loop to print the lowercase alphabet */
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        putchar(letter);
-    }
+	/* Loop to print the lowercase alphabet */
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		putchar(letter);
+	}
 
-    /* Print a new line after printing the alphabet */
-    putchar('\n');
+	/* Print a new line after printing the alphabet */
+	putchar('\n');
 
-    return 0;
+	return (0);
 }
