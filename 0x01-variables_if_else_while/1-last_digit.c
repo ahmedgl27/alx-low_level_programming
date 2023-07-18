@@ -4,18 +4,13 @@
 
 int main(void)
 {
-    int n;
+    int n, last_digit;
 
-    // Seed the random number generator with the current time
     srand(time(0));
-
-    // Generate a random number between 0 and RAND_MAX (inclusive)
     n = rand() - RAND_MAX / 2;
 
-    // Extract the last digit of the random number
-    int last_digit = abs(n) % 10;
+    last_digit = abs(n) % 10;
 
-    // Print the output based on the last digit
     printf("Last digit of %d is %d and is ", n, last_digit);
 
     if (last_digit > 5)
