@@ -7,6 +7,5 @@ int _putchar(char c);
 /* isupper prototype */
 int _isupper(int c);
 /* isdigit function prototype */
-int _isdigit(int c);
-/* 
+int _isdigit(int c); 
 #endif /* MAIN_H */
