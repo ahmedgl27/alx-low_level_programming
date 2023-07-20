@@ -4,8 +4,9 @@
 /* Function prototype for _putchar */
 int _putchar(char c);
 
-/* Function prototypes for other functions */
+/* isupper prototype */
 int _isupper(int c);
-/* Add more function prototypes here for your other functions */
-
+/* isdigit function prototype */
+int _isdigit(int c);
+/* 
 #endif /* MAIN_H */
