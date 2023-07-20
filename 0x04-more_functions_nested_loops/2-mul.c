@@ -9,5 +9,9 @@
  */
 int mul(int a, int b)
 {
-    return a * b;
+	/**
+	 * The product of two integers is calculated using the '*' operator.
+	 * Return the result of the multiplication.
+	 */
+	return (a * b);
 }
