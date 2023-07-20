@@ -12,4 +12,6 @@ int _isdigit(int c);
 int mul(int a, int b);
 /* print numbers from 0 to 9 function prototype */
 void print_numbers(void);
+/* function that prints the numbers, from 0 to 9, followed by a new line */
+void print_most_numbers(void);
 #endif /* MAIN_H */
